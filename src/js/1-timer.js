@@ -73,6 +73,7 @@ const options = {
 
       if(deltaTime < 1000) {
         clearInterval(timeID);
+        input.disabled = false;
         return;
       }
 
